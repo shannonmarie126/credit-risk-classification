@@ -2,10 +2,12 @@
 
 Supervised learning using a Logistic Regression mdoel and fit to training data in order to test the testing data to classify healthy loans (0) and high risk loans (1). 
 
-Confusion Matrix
+Confusion Matrix:
+
 <img width="135" alt="Screenshot 2025-03-31 at 1 33 33 PM" src="https://github.com/user-attachments/assets/07b703b6-5c3f-44c6-a125-792099f10361" />
 
 Classification report:
+
 <img width="398" alt="Screenshot 2025-03-30 at 10 56 56 PM" src="https://github.com/user-attachments/assets/87c2c8c4-0922-4aec-bd21-71295a4d90b3" />
 
 - Accuracy: The logistic regression moodel has 99% accuracy (true pos+true neg)/total (56015+1739)/(56015+103+1739+295)=57754/58152
