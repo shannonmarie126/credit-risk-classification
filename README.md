@@ -16,6 +16,6 @@ Classification report:
     For risky loans, the precision is 85% (1739/(1739+295)=1739/2034)
 - Recall: The ratio of correctly predicted to all the values that should have been in the class (true pos/(true pos+false neg))
     For healthy loans the recall is 99% (56015/(56015+295)=56015/56310)
-    For risky loans the recall is 90% (1739/(1739+103)=1739/1842)
+    For risky loans the recall is 94% (1739/(1739+103)=1739/1842)
 
-If the company provides mostly smaller loans with less risk when lending then the model may suffice with such a high recall and precision for selecting healthy loans. However, if the company provides higher loans with a higher risk for loss, the 85% precision and 90% recall for discerning which loans are risky may not be high enough to confidently move forward with and more data may need to be collected to predict a risky loan. 
+If the company provides mostly smaller loans with less risk when lending then the model may suffice with such a high recall and precision for selecting healthy loans. However, if the company provides higher loans with a higher risk for loss, the 94% recall for discerning which loans are risky may not be high enough to confidently move forward with and more data may need to be collected to predict a risky loan so less than 6% off risky loans are missed in the classification. 
